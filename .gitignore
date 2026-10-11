@@ -1,0 +1,16 @@
+# 数据 (数 GB, 不入库)
+v1.0-mini/
+v1.0-mini.tar
+nu2d/
+nu2d.tar.gz
+
+# 训练 / 评估产物与缓存
+outputs/
+runs/
+__pycache__/
+*.pyc
+
+# 权重 (仅保留起始预训练权重 yolo11n.pt)
+*.pt
+*.pth
+!yolo11n.pt
